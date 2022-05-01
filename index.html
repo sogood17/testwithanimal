@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/qna.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <script src="./js/data.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="main mx-auto my-5 py-5 shadow-lg" id="main">
+            <div class="py-auto">
+                <h1>십이간지로 알아보는 나만의 연애유형은?</h1>
+                <div class="col-sm-10 col-md-8 col-lg-7 mx-auto">
+                    <img src="./img/main.png" class="img-fluid">
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-danger shadow-sm" id="start_button">시작하기</button>
+
+        </section>
+        
+        <section class="qna mx-auto my-5 py-5 shadow-lg" id="qna" >
+            <div class="col-sm-10 col-md-8 col-lg-7 mx-auto" id="qnaBox">
+                <p class="qna_p my-5 py-5" id="qnaP">
+                </p>
+            </div>
+            <div class="answer my-5 py-5" id="answer">
+                <div class="answerBox" id="answerBox">
+
+                </div>
+
+            </div>
+        
+        
+        </section>
+
+        <section class="result mx-auto my-5 py-5 shadow-lg" id="result">
+            <div id="resultBox py-auto">
+                <h1>나의 연애유형은?</h1>
+                <div class="col-sm-10 col-md-8 col-lg-7 mx-auto resultImg" id="resultImg">
+
+                </div>
+                <div>
+                    <h2 class="resultAnimal" id="resultAnimal"></h2><br>
+                    <p class="resultDesc mx-auto" id="resultDesc"></p>
+                </div>
+            </div>
+        </section>
+        </div>
+    </div>
+<script src="./js/start.js"></script>
+<script src="./js/qna.js"></script>
+</body>
+</html>
